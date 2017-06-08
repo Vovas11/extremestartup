@@ -13,6 +13,10 @@
     <servlet-class>app.TemplateServlet</servlet-class>
   </servlet>
   <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
     <servlet-name>TemplateServlet</servlet-name>
     <url-pattern>/template</url-pattern>
   </servlet-mapping>
